@@ -1,0 +1,41 @@
+@page "/dashboard"
+<PageTitle>Dashboard</PageTitle>
+
+<h1>Dashboard</h1>
+<div>opcion1 opcion 2 opcion 3</div>
+<div>
+  <div class="border rounded d-flex justify-content-between align-items-center barra">
+    <div class="enlace">Enlace afiliado</div>cirsa.com/hg7f77f <svg xmlns="http://www.w3.org/2000/svg" width="16"
+      height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+    </svg>
+  </div>
+  <p class="fs-6 mt-5">Usuarios registrados con tu enlace</p>
+  <table class="border table">
+    <tbody>
+      <tr>
+        <th>Nombre</th>
+        <th>Registrado</th>
+        <th>Recibido</th>
+      </tr>
+      @foreach (var item in users)
+      {
+        <tr class="listItem">
+          <td class="col">@item.Name</td> @if (@item.Registered)
+          {
+            <td class="bold font-bold col">Registrado</td>
+          }else{
+            <td class="bold font-bold col">No Registrado</td>
+          }
+          <td><i class="bi bi-check-all" style="font-size: x-large;"></i></td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
+
+@code {
+  UserData[] users = { new UserData("Alicia", true), new UserData("Harry", false), new UserData("Víctor", true) };
+
+}

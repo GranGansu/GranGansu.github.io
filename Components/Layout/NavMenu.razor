@@ -1,0 +1,43 @@
+﻿@inject NavigationManager MyNavigationManager
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href=""><img src="/img/logo.png" /></a>
+        <div class="hidden-mobile">
+            <button class="btn btn-primary" type="button">Afiliado</button>
+            <button class="btn btn-primary" type="button">Cliente</button>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="nav-nav-scroll">
+        @{
+            var classy = true ? "prueba1" : "prueba2";
+        }
+        @foreach (var item in navItems)
+        {
+            <div class="nav-item px-3 py-3">
+                <NavLink href=@item.Url Match="NavLinkMatch.All" class="nav-link">
+                    <p class="@classy">@item.Name</p>
+                </NavLink>
+            </div>
+        }
+    </nav>
+</div>
+
+@code {
+    public class Link
+    {
+        public string Name { get; set; }
+        public string Url { get; set; }
+        public Link(string name, string url)
+        {
+            Name = name;
+            Url = url;
+        }
+    }
+    Link[] navItems = { new Link("Home", "/"), new Link("Regístrate", "register"),new Link("Login", "login"),new
+Link("Dashboard", "dashboard") };
+}

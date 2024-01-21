@@ -1,0 +1,14 @@
+.listItem:hover{
+    background-color: rgb(211, 211, 255);
+    color:black;
+}
+
+.enlace{
+    background-color: rgb(172, 219, 30);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.barra{
+    padding-right: 15px;
+}

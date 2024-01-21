@@ -1,0 +1,13 @@
+.mainContainer[b-p0rv9lwn5p]{
+    max-width: 500px;
+}
+.mainContainer h1[b-p0rv9lwn5p]{
+    font-size: x-large;
+    font-weight: bold;
+}
+.mainContainer form[b-p0rv9lwn5p]{
+    box-shadow: 10px 10px 0px black;
+}
+.mainContainer form:hover[b-p0rv9lwn5p]{
+    box-shadow: 10px 10px 0px rgb(135, 0, 197);
+}

@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Downloads\\Proyectos\\Blazor\\CirsaChallenge\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CirsaChallenge.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CirsaChallenge.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Downloads\\Proyectos\\Blazor\\CirsaChallenge\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Downloads\\Proyectos\\Blazor\\CirsaChallenge\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Downloads\\Proyectos\\Blazor\\CirsaChallenge\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Downloads\\Proyectos\\Blazor\\CirsaChallenge\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Downloads\\Proyectos\\Blazor\\CirsaChallenge\\wwwroot\\img\\home.jpg",
+      "PackagePath": "staticwebassets\\img\\home.jpg"
+    },
+    {
+      "Id": "D:\\Downloads\\Proyectos\\Blazor\\CirsaChallenge\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CirsaChallenge.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CirsaChallenge.props",
+      "PackagePath": "build\\CirsaChallenge.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CirsaChallenge.props",
+      "PackagePath": "buildMultiTargeting\\CirsaChallenge.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CirsaChallenge.props",
+      "PackagePath": "buildTransitive\\CirsaChallenge.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
